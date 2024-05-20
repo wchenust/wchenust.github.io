@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, CSE, <a href='https://hkust.edu.hk/'>HKUST</a>
+subtitle: PhD Student, Department of Computer Science and Engineering, <a href='https://hkust.edu.hk/'>HKUST</a>
 profile:
   align: right
   image: prof_pic.jpg

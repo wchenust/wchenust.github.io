@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, CSE, <a href='https://hkust.edu.hk/'>HKUST</a>
+subtitle: PhD Student, Department of Computer Science and Engineering, <a href='https://hkust.edu.hk/'>HKUST</a>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular 
   more_info: >
 
 news: true # includes a list of news items

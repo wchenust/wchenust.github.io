@@ -1,12 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: teaching assistant
 description: 
 nav: true
 nav_order: 6
 ---
-Teaching Assistant
 
 **MSBD 5008** Introduction to Social Computing
 

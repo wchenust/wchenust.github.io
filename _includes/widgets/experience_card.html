@@ -1,0 +1,28 @@
+<div class="section-container reveal" id="awards">
+    <div class="section-block" style="margin-top: -1.5rem; margin-bottom: 0;">
+        {% if site.data.profile.awards %}
+        <div class="info-card info-card-full" style="margin-bottom: 1rem;">
+            <h3 class="info-card-title">
+                <i class="fas fa-trophy"></i> Honors &amp; Awards
+            </h3>
+            {% for item in site.data.profile.awards %}
+            <div class="award-item">
+                <span class="award-name">{{ item.name }}</span>
+                <span class="award-date">{{ item.date }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="info-card info-card-full">
+            <h3 class="info-card-title">
+                <i class="fas fa-gavel"></i> Academic Service
+            </h3>
+            <ul class="service-list">
+                <li><strong>Conference Area Chair:</strong> ICLR</li>
+                <li><strong>Journal Reviewer:</strong> IEEE TNNLS, IEEE TAI, IEEE TPAMI, Artificial Intelligence, Machine Learning Journal, TMLR</li>
+                <li><strong>Conference Reviewer:</strong> ICML, NeurIPS, ICLR, AAAI, IJCAI</li>
+            </ul>
+        </div>
+    </div>
+</div>

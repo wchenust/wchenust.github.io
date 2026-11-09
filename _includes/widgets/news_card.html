@@ -1,0 +1,20 @@
+{% assign news_items = site.news | sort: "date" | reverse %}
+
+<div class="section-container reveal" id="news">
+    <div class="section-block">
+        <h2 class="section-title">
+            <i class="fas fa-rss"></i> Latest News
+        </h2>
+        <div class="news-scroll">
+            <div class="timeline">
+                {% for item in news_items %}
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">{{ item.date | date: "%b %d, %Y" }}</div>
+                    <p class="timeline-text">{{ item.title }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

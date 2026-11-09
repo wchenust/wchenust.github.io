@@ -1,0 +1,9 @@
+pages:
+- name: About
+  url: "#about"
+- name: News
+  url: "#news"
+- name: Awards
+  url: "#awards"
+- name: Publications
+  url: "#publications"

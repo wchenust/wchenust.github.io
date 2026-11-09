@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CityUHK - PhD/RA/Intern Recruitment in LLM & AI4S</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #f5f3ee;
+    color: #2c2c2c;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fdfbf6;
+    padding: 50px 60px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+  }
+  .accent-bar {
+    width: 80px;
+    height: 5px;
+    background: #8B0000;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+  h1 .highlight {
+    color: #8B0000;
+  }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #8B0000;
+    margin: 35px 0 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0d8c8;
+  }
+  .section-title .icon {
+    font-size: 1.4rem;
+  }
+  .directions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .direction-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .direction-card.pink {
+    background: #f7e8ee;
+    color: #4a2738;
+  }
+  .direction-card.green {
+    background: #e3ebd8;
+    color: #2d4423;
+  }
+  .direction-card.purple {
+    background: #ece4f5;
+    color: #3a2956;
+  }
+  .direction-icon {
+    font-size: 1.5rem;
+  }
+  .position {
+    background: #faf6ee;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid #ece5d4;
+  }
+  .position-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #f3ece0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+  .position-content {
+    flex: 1;
+  }
+  .position-content h3 {
+    font-size: 1.3rem;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  .position-content ul {
+    list-style: none;
+  }
+  .position-content li {
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .position-content li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #8B0000;
+    font-weight: bold;
+  }
+  .position-content li.highlight {
+    color: #8B0000;
+    font-weight: 600;
+  }
+  .salary {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .salary-amount {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #8B0000;
+    line-height: 1.1;
+  }
+  .salary-amount.green-tag {
+    color: #2d5e2d;
+  }
+  .salary-tag {
+    display: inline-block;
+    margin-top: 8px;
+    background: #8B0000;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .salary-tag.green {
+    background: #2d5e2d;
+  }
+  .contact {
+    margin-top: 30px;
+    padding: 20px;
+    background: #faf6ee;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 0.95rem;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact-item .icon {
+    color: #8B0000;
+    font-size: 1.2rem;
+  }
+  .contact a {
+    color: #8B0000;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .contact a:hover { text-decoration: underline; }
+  @media (max-width: 600px) {
+    .container { padding: 30px 20px; }
+    h1 { font-size: 1.6rem; }
+    .position { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="accent-bar"></div>
+    <h1>
+      CityUHK is Recruiting <span class="highlight">PhD / RA / Intern</span><br>
+      in LLM &amp; AI4S
+    </h1>
+
+    <!-- Research Directions -->
+    <div class="section-title">
+      <span class="icon">&#x1F3AF;</span> Research Directions
+    </div>
+    <div class="directions">
+      <div class="direction-card pink">
+        <span class="direction-icon">&#x269B;&#xFE0F;</span>
+        <span>Diffusion Language Model</span>
+      </div>
+      <div class="direction-card green">
+        <span class="direction-icon">&#x1F310;</span>
+        <span>World Model</span>
+      </div>
+      <div class="direction-card purple">
+        <span class="direction-icon">&#x1F9EA;</span>
+        <span>AI4Science</span>
+      </div>
+    </div>
+
+    <!-- Positions -->
+    <div class="section-title">
+      <span class="icon">&#x1F4BC;</span> Open Positions
+    </div>
+
+    <div class="position">
+      <div class="position-icon">&#x1F393;</div>
+      <div class="position-content">
+        <h3>PhD Student</h3>
+        <ul>
+          <li>Has published CCF-A conference or top-journal papers related to LLM/AI4S, or has led impactful projects</li>
+          <li>Industry internship opportunities will be supported and recommended</li>
+          <li class="highlight">Outstanding candidates are eligible for the HKPFS Scholarship (28,000 HKD/month)</li>
+        </ul>
+      </div>
+      <div class="salary">
+        <div class="salary-amount">19,000-<br>28,000</div>
+        <span class="salary-tag">HKD/month</span>
+      </div>
+    </div>
+
+    <div class="position">
+      <div class="position-icon">&#x1F4BC;</div>
+      <div class="position-content">
+        <h3>Research Assistant / Intern</h3>
+        <ul>
+          <li>Solid understanding of LLM or AI4S, with relevant paper or project experience</li>
+          <li class="highlight">Outstanding performers may be recommended for a CityU PhD position or an HKUST PhD</li>
+        </ul>
+      </div>
+      <div class="salary">
+        <div class="salary-amount green-tag">10,000-<br>20,000</div>
+        <span class="salary-tag green">HKD/month</span>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+      <div class="contact-item">
+        <span class="icon">&#x2709;&#xFE0F;</span>
+        <span>Please send your CV to: <a href="mailto:weiyu.chen@cityu.edu.hk">weiyu.chen@cityu.edu.hk</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="icon">&#x1F4DD;</span>
+        <span>Email subject: <strong>PhD/RA Application + University + Name</strong></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

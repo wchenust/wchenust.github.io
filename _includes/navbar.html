@@ -1,0 +1,17 @@
+<nav class="site-navbar" id="navbar">
+    <div class="navbar-inner">
+        <a class="navbar-brand" href="./">{{ site.data.profile.navbar_name }}</a>
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar-links" id="navbar-links">
+            {% for item in site.data.navigation.pages %}
+            <li>
+                <a href="{{ item.url }}" onclick="closeMobileMenu()">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

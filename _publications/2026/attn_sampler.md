@@ -1,6 +1,6 @@
 ---
 title:          "Attention-Based Sampler for Diffusion Language Models"
-date:           2026-09-26 00:00:00 +0800
+date:           2026-09-26 00:00:03 +0800
 selected:       true
 pub_post:       'The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS)'
 pub_date:       "2026"
